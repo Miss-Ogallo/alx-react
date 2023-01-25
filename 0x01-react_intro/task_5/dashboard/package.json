@@ -1,0 +1,48 @@
+{
+  "name": "task_5",
+  "version": "1.0.0",
+  "description": "Creating a project using Webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production --config config/webpack.config.js",
+    "start": "webpack-dev-server --mode development --config config/webpack.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akakiplimo/alx-react.git"
+  },
+  "keywords": [
+    "webpack",
+    "project",
+    "from",
+    "scratch"
+  ],
+  "author": "A. Kiplimo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akakiplimo/alx-react/issues"
+  },
+  "homepage": "https://github.com/akakiplimo/alx-react#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "image-webpack-loader": "^8.1.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@cfaester/enzyme-adapter-react-18": "^0.6.0",
+    "enzyme": "^3.11.0",
+    "inline-source-map": "^0.6.2",
+    "jest": "^29.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
